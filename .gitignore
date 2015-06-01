@@ -1,0 +1,6 @@
+*.phar
+php/*.tgz
+gearman/*.tgz
+elasticsearch/*.zip
+.DS_Store
+!.gitignore
