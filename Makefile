@@ -15,7 +15,7 @@ dl:
 	wget https://pecl.php.net/get/msgpack-0.5.6.tgz -O php/msgpack.tgz
 	wget https://pecl.php.net/get/memcache-2.2.7.tgz -O php/memcache.tgz
 	wget https://pecl.php.net/get/xhprof-0.9.4.tgz -O php/xhprof.tgz
-	get https://getcomposer.org/composer.phar -O php/composer.phar
+	wget https://getcomposer.org/composer.phar -O php/composer.phar
 
 build:
 	make build-nginx
